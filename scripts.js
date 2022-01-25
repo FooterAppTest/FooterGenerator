@@ -4,7 +4,7 @@ window.writeValues = function(form) {
     var number = form.number.value;
     var email = form.email.value;
    
-    document.getElementById('first').innerHTML =  "Dziękuję i pozdrawiam" + '<br><span style="color:#004080; font-weight:bold">' + name + "</span>" + '<p style="color:#808080">' + position + '</p><br>' + number;
+     document.getElementById('first').innerHTML =  "Dziękuję i pozdrawiam" + '<br><span style="color:#004080; font-weight:bold">' + name + "</span>" + '<br><span style="color:#808080">' + position + '</span><br><br>' + number;
     document.getElementById('email-txt').innerHTML = '<a href="mailto:' + email + '">' + email + "</a>"  + '<br><br>' + photo.value + "<br><br>" + '<p style="color:#004080; font-weight:bold">' + "Unum Życie TUiR S.A.</p><p>al. Jana Pawła II 17, 00-854 Warszawa, Polska</p>";
     document.getElementById('page').innerHTML =  '<a href="https://www.unum.pl" style="color:#004080">www.unum.pl</a><br>';
     document.getElementById('company-data').innerHTML =  "Unum Życie TUiR S.A., al. Jana Pawła II 17, 00-854 Warszawa, Spółka wpisana do rejestru przedsiębiorców w Sądzie Rejonowym dla m.st. Warszawy, XIII Wydział Gospodarczy Krajowego Rejestru Sądowego, KRS 0000008906, NIP 526-22-62-838, REGON 013281575, kapitał zakładowy 60 000 000,00 zł w całości opłacony.<br>";
